@@ -1,8 +1,5 @@
-.main_grid {
+body {
   display: grid;
-  grid-template-columns: auto auto auto;
-  min-height: 100vh;
-  margin: 0;
 }
 
 .left-sidebar {
