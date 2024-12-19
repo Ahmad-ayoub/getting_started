@@ -1,5 +1,30 @@
-.body {
+body {
   display: grid;
-  grid-template-columns: 25vh 50vh 25vh;
-  grid-template-rows: auto;
+  grid-template-columns: 25% 50% 25%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.left-sidebar {
+  grid-column: 1;
+}
+
+.main-content {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-sidebar {
+  grid-column: 3;
+}
+
+
+.self_portrait {
+  border-radius: 50%;
+  width: 200px;  
+  height: 200px;
+  object-fit: cover; 
 }
