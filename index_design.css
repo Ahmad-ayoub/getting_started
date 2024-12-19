@@ -1,6 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
   min-height: 100vh;
   margin: 0;
 }
