@@ -1,6 +1,6 @@
-body {
+.main_grid {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: auto auto auto;
   min-height: 100vh;
   margin: 0;
 }
